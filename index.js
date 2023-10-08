@@ -6,7 +6,7 @@ import cors from 'cors'
         
 const app = express();
 app.use(cors({
-    origin:['http://localhost:3000','*'],
+    origin:['https://instagram-com-funnyvideo.onrender.com','*'],
     credentials:true
 }))
 app.use(express.static('./build'))
